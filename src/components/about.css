@@ -1,0 +1,79 @@
+.about {
+  padding: 5rem;
+}
+
+.aboutContent {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+.img {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10rem;
+}
+
+.workEmoji {
+  position: relative;
+  top: 12.6rem;
+  height: 6rem;
+  right: 18rem;
+}
+
+.mainImg {
+  width: 28rem;
+  height: 21rem;
+  border-radius: 15%;
+}
+
+.circleImg {
+  position: relative;
+  width: 12rem;
+  height: 12rem;
+  top: 10rem;
+  right: 9rem;
+  background-color: #fff;
+  border-radius: 50%;
+
+  -webkit-animation: spin 9s linear infinite;
+  -moz-animation: spin 9s linear infinite;
+  animation: spin 9s linear infinite;
+}
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.aboutText {
+  position: relative;
+  right: 8rem;
+  width: 27rem;
+}
+
+.aboutText h3 {
+  color: #128cf7;
+  margin-bottom: 1rem;
+}
+
+.aboutText h4 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.aboutText p{
+    color: #767676;
+}
