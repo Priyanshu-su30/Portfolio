@@ -1,14 +1,13 @@
 import React from "react";
-import './footer.css';
-
+import "./footer.css";
 
 export default function Navbar() {
   return (
     <>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
       <footer>
         <div class="containers">
           <div class="footerc">
@@ -29,6 +28,13 @@ export default function Navbar() {
                 href="https://github.com/Priyanshu-su30"
               >
                 <i className="fa fa-fw fa-github"></i>
+              </a>
+              <a
+                href="https://x.com/Priyans65890984"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i className="fa fa-fw fa-twitter"></i>
               </a>
             </div>
           </div>

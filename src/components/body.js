@@ -22,10 +22,10 @@ export default function Navbar() {
 
       <div className="content">
         <div className="lcontent">
-          <h1 className="text">Front-End React Developer</h1>
+          <h1 className="text">Full-Stack Developer</h1>
           <p className="para">
-            Hola!!, I'm Priyanshu Singh. A passionate Front-end React Developer
-            based in Uttar Pradesh, India.
+            Hola!!, I'm Priyanshu Singh. A passionate Full-Stack Developer based
+            in Uttar Pradesh, India.
           </p>
           <span>
             <a
@@ -41,6 +41,13 @@ export default function Navbar() {
               rel="noreferrer"
             >
               <i className="fa fa-fw fa-linkedin"></i>
+            </a>
+            <a
+              href="https://x.com/Priyans65890984"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <i className="fa fa-fw fa-twitter"></i>
             </a>
           </span>
         </div>
