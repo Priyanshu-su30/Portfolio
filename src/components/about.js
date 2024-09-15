@@ -8,33 +8,31 @@ export default function Navbar() {
   return (
     <>
       <div class="about" id="aboutme">
-          <div class="aboutContent">
-            <div class="img">
+        <div class="aboutContent">
+          <div class="img">
+            <img src={bench} alt="mee" class="mainImg" />
+            <img src={circle} alt="text" className="circleImg" />
+            <img src={me} alt="emoji" class="workEmoji" />
+          </div>
 
-              <img src={bench} alt="mee" class="mainImg" />
-                <img src={circle} alt="text" className="circleImg" />
-              <img src={me} alt="emoji" class="workEmoji" /> 
-              
-            </div>
+          <div class="aboutText">
+            <h3>About me</h3>
+            <h4>A dedicated Full-Stack Developer</h4>
 
-            <div class="aboutText">
-
-              <h3>About me</h3>
-              <h4>A dedicated Front-End Developer</h4>
-
-              <p>
-                As a Junior Front-End Developer, I possess an impressive arsenal
-                of skills in HTML, CSS, JavaScript and React. I excel in
-                designing and maintaining responsive websites that offer a
-                smooth user experience. My expertise lies in crafting dynamic,
-                engaging interfaces through writing clean and optimized code and
-                utilizing cutting-edge development tools and techniques. I am
-                also a team player who thrives in collaborating with
-                cross-functional teams to produce outstanding web applications.
-              </p>
-            </div>
+            <p>
+              Sure! I'm a full-stack developer. I'm passionate about building
+              web applications from the ground up. I'm proficient in HTML, CSS,
+              JavaScript, React, Node.js, Mongodb.I enjoy the challenge of
+              tackling both the front-end and back-end aspects of a project. On
+              the front-end, I'm skilled in creating intuitive and visually
+              appealing user interfaces using modern frameworks and libraries.
+              On the back-end, I specialize in developing efficient and scalable
+              server-side applications that handle data storage, retrieval, and
+              processing.
+            </p>
           </div>
         </div>
+      </div>
     </>
   );
 }
