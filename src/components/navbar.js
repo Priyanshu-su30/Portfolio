@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./navbar.css";
 
@@ -11,7 +12,9 @@ export default function Navbar() {
 
       <div className="nav">
         <nav>
-          <a className="head"><strong>priyanshu.dev</strong></a>
+          <a className="head">
+            <strong>priyanshu.dev</strong>
+          </a>
           <div className="elements">
             <a href="#"> Home </a>
             <a href="#aboutme"> About me </a>
