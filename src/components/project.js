@@ -2,8 +2,8 @@
 import React from "react";
 import "./project.css";
 import dailyblog from "./images/Dailyblog (2).png";
-import tourImg from "./images/tour.jpeg";
-import deliciasoImg from "./images/deliciaso.jpeg";
+import tourImg from "./images/tour.png";
+import deliciasoImg from "./images/deliciaso.png";
 
 export default function Navbar() {
   return (

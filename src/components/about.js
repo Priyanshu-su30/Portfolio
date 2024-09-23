@@ -17,10 +17,10 @@ export default function Navbar() {
 
           <div class="aboutText">
             <h3>About me</h3>
-            <h4>A dedicated Full-Stack Developer</h4>
+            <h4>A dedicated MERN-Stack Developer</h4>
 
             <p>
-              I'm a full-stack developer. I'm passionate about building web
+              I'm a MERN-stack developer. I'm passionate about building web
               applications from the ground up. I'm proficient in HTML, CSS,
               JavaScript, React, Node.js, Mongodb.I enjoy the challenge of
               tackling both the front-end and back-end aspects of a project. On

@@ -22,9 +22,9 @@ export default function Navbar() {
 
       <div className="content">
         <div className="lcontent">
-          <h1 className="text">Full-Stack Developer</h1>
+          <h1 className="text">MERN-Stack Developer</h1>
           <p className="para">
-            Hola!!, I'm Priyanshu Singh. A passionate Full-Stack Developer based
+            Hola!!, I'm Priyanshu Singh. A passionate MERN-Stack Developer based
             in Uttar Pradesh, India.
           </p>
           <span>
