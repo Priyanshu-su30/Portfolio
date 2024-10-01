@@ -22,7 +22,7 @@ export default function Navbar() {
             <p>
               I'm a MERN-stack developer. I'm passionate about building web
               applications from the ground up. I'm proficient in HTML, CSS,
-              JavaScript, React, Node.js, Mongodb.I enjoy the challenge of
+              JavaScript, React, Node.js, Mongodb. I enjoy the challenge of
               tackling both the front-end and back-end aspects of a project. On
               the front-end, I'm skilled in creating intuitive and visually
               appealing user interfaces using modern frameworks and libraries.
